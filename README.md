@@ -5,7 +5,7 @@ Robot code for FIRST Robotics Competition Team 2883 (Warroad, MN), 2026 season, 
 I wrote this code as the team's President & Lead Programmer. Shared publicly with permission from the team.
 
 ## Highlights
-- **Swerve drive:** Built on CTRE's Phoenix 6 swerve framework (base files generated with Tuner X), which I configured, tuned, and extended with vision fusion and autonomous path following.
+- **Swerve drive:** Swerve drivetrain built on CTRE's Phoenix 6 swerve library, which I heavily customized and extended with vision fusion, auto-alignment, and autonomous path following. Tuner X was used only to generate each module's constants.
 - **Vision localization:** AprilTag detection on Limelight cameras using MegaTag pose estimates, fused with wheel odometry for field-relative localization (`subsystems/Limelight.java`, `RobotState.java`).
 - **Auto-aim:** Automated aiming and drive alignment using the robot's field position (`commands/AutoAimDriveUsingMegaTagLocations.java`, `commands/TurretAim.java`, `vision/ShotCalculator.java`).
 - **Autonomous routines:** Multiple starting-position autos built with PathPlanner (`src/main/deploy/pathplanner/`, `commands/AutoCommands.java`).
@@ -22,5 +22,5 @@ I wrote this code as the team's President & Lead Programmer. Shared publicly wit
 Java, WPILib, CTRE Phoenix 6, REVLib, PathPlanner, Limelight
 
 ## Credits
-- `generated/TunerConstants.java` and the base of `CommandSwerveDrivetrain.java` were generated with CTRE Tuner X.
+- `generated/TunerConstants.java` (module constants and offsets) was generated with CTRE Tuner X.
 - `LimelightHelpers.java` is provided by Limelight.
