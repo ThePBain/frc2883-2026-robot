@@ -1,0 +1,34 @@
+CONTROLLER BINDINGS — Copy/paste reference
+==========================================
+Driver = port 0 | Operator = port 1
+
+--- DRIVER (port 0) ---
+Drive — left stick
+Rotate — right stick
+Brake — A (hold)
+Point wheels — B (hold) + left stick direction
+Auto-aim at hub — X (hold; release returns to normal drive)
+Reset field-centric — left bumper
+SysId dynamic forward — Back + Y (hold)
+SysId dynamic reverse — Back + X (hold)
+SysId quasistatic forward — Start + Y (hold)
+SysId quasistatic reverse — Start + X (hold)
+
+--- OPERATOR (port 1) ---
+Full shoot (prepare + feed) — right trigger
+Pre-aim only — left trigger (hold)
+Intake extend — left bumper (press)
+Intake retract — left bumper (release) or right bumper
+Climb mode toggle — Start
+Climber climb — Y (when climb mode on)
+Climber retract — A (when climb mode on)
+
+--- OPERATOR TEST LAYER (hold Back) ---
+Flywheel run — Back + D-pad up (hold)
+Flywheel stop — Back + D-pad down
+Hood min — Back + D-pad left
+Hood max — Back + D-pad right
+Hood mid — Back + B
+Turret zero — Back + X
+Turret left — Back + Y (only when climb mode off)
+Turret right — Back + A (only when climb mode off)

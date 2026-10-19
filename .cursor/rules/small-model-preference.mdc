@@ -1,0 +1,14 @@
+---
+description: Prefer small/fast model for this FRC project
+alwaysApply: true
+---
+
+# Model preference
+
+For this project, use the **small/fast model** (e.g. cursor-small) for:
+
+- Revisions and edits
+- Chat and inline suggestions (Cmd+K)
+- Any AI usage in this workspace
+
+Prefer minimal context and small, focused changes to keep token usage low.
